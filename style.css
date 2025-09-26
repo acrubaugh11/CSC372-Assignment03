@@ -1,52 +1,48 @@
-
 body {
     margin: 0;
-    font-family:monospace;
+    font-family: monospace;
     background-color: rgb(201, 196, 171);
     overflow-x: hidden;
-}
-
-#sidebar-body{
+  }
+  
+  #sidebar-body {
     display: flex;
     align-items: flex-start;
     flex-direction: row-reverse;
     gap: 5px;
-}
-
-header{
+  }
+  
+  header {
     background-color: rgb(201, 196, 171);
     padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-
-}
-header h1 {
+  }
+  header h1 {
     border-bottom: 2px solid black;
     padding: 50px;
-}
-
-header p {
+  }
+  
+  header p {
     width: 50%;
     margin: auto;
     padding: 5px;
     text-align: left;
     line-height: 2rem;
     font-size: large;
-}
-header img {
+  }
+  header img {
     height: 200px;
     width: 200px;
     margin: 50px auto;
-
-}
-
-
-main {
+  }
+  
+  main {
     display: flex;
     flex-direction: column;
-}
-.restaurant {
+  }
+  .restaurant {
     height: auto;
     margin: 10px;
     text-align: center;
@@ -54,38 +50,37 @@ main {
     /* border: 1px solid black; */
     background-color: antiquewhite;
     border-radius: 25px;
-}
-
-.restaurant h1{
+  }
+  
+  .restaurant h1 {
     text-decoration: underline;
-}
-
-.restaurant img {
+  }
+  
+  .restaurant img {
     max-width: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 25px;
     margin: 20px;
-}
-
-img {
+  }
+  
+  img {
     border-radius: 25px;
-}
-
-.cardHolder {
+  }
+  
+  .cardHolder {
     display: flex;
-    gap: 10px;       
+    gap: 10px;
     justify-content: center;
-
   }
   
   .card {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 30%;
-    max-width: 300px;   
-    display: flex;        
+    max-width: 300px;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: whitesmoke;
@@ -96,21 +91,20 @@ img {
   }
   
   .card img {
-    display: block;              
-    margin: 0 auto 0.5rem;      
-    max-width: 100%;             
+    display: block;
+    margin: 0 auto 0.5rem;
+    max-width: 100%;
     height: 200px;
     object-fit: cover;
   }
-
+  
   .card p {
     font-style: italic;
   }
   
-  
   #sidebar {
-    flex:1;
-    background:whitesmoke;
+    flex: 1;
+    background: whitesmoke;
     border: 2px solid grey;
     border-radius: 10px;
     padding: 10px;
@@ -118,12 +112,47 @@ img {
     width: auto;
     line-height: 1.5rem;
     height: auto;
-}
-
-footer {
+  }
+  
+  footer {
     background: black;
     color: white;
     padding: 1.5rem;
     text-align: center;
   }
   
+  .favorite-item {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    width: 50%;
+    margin: 10px auto 10px auto;
+  }
+  
+  .card-style {
+    border: 5px solid red;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .priceDiv-style {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: lightgreen;
+  }
+  
+  .favorite-section {
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+  }

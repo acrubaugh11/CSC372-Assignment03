@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
   </head>
   <body>
     <header>
@@ -34,7 +36,7 @@
         <section class="restaurant">
           <h1>Don</h1>
 
-          <img src="images/restaurant1/don.jpg" alt="" />
+          <img src="images/restaurant1/don.jpg" alt="" loading="lazy" />
 
           <p>
             Don is a Japanese restuarant located on Tate Street with food
@@ -43,14 +45,14 @@
           </p>
 
           <article class="cardHolder">
-            <div class="card">
-              <img src="images/restaurant1/dish1a.jpg" alt="" />
+            <div class="card" data-name = "bulgogi" data-price="$12">
+              <img src="images/restaurant1/dish1a.jpg" alt="" loading="lazy" />
               <p>Bulgogi Don</p>
               <p>Bulgogi is a popular korean dish of thinly sliced meat.</p>
             </div>
 
-            <div class="card">
-              <img src="images/restaurant1/dish1b.jpg" alt="" />
+            <div class="card"  data-name = "spicy ramen" data-price="$10">
+              <img src="images/restaurant1/dish1b.jpg" alt="" loading="lazy" />
               <p>Spicy Ramen</p>
               <p>
                 Japanese dish featuring spicy, creamy, rich ramen noodles with
@@ -58,8 +60,8 @@
               </p>
             </div>
 
-            <div class="card">
-              <img src="images/restaurant1/dish1c.jpg" alt="" />
+            <div class="card"  data-name = "spicy tuna" data-price="$14">
+              <img src="images/restaurant1/dish1c.jpg" alt="" loading="lazy" />
               <p>Spicy Tuna</p>
               <p>A dish served with spicy tuna and rice.</p>
             </div>
@@ -81,8 +83,8 @@
           </p>
 
           <article class="cardHolder">
-            <div class="card">
-              <img src="images/restaurant2/dish2a.jpg" alt="" />
+            <div class="card"  data-name = "zeppoli" data-price="$8">
+              <img src="images/restaurant2/dish2a.jpg" alt="" loading="lazy" />
               <p>Zeppoli</p>
               <p>
                 Zeppoli is a famous Italian pastry, consisting of deep-fried
@@ -90,8 +92,8 @@
               </p>
             </div>
 
-            <div class="card">
-              <img src="images/restaurant2/dish2b.jpg" alt="" />
+            <div class="card"  data-name = "calzone" data-price="$13">
+              <img src="images/restaurant2/dish2b.jpg" alt="" loading="lazy" />
               <p>Calzone</p>
               <p>
                 Calzone is an oven-baked Italian folded pizza, with options for
@@ -99,8 +101,8 @@
               </p>
             </div>
 
-            <div class="card">
-              <img src="images/restaurant2/dish2c.jpg" alt="" />
+            <div class="card"  data-name = "pizza" data-price="$6">
+              <img src="images/restaurant2/dish2c.jpg" alt="" loading="lazy" />
               <p>Pizza</p>
               <p>
                 Last but not least, classic Italian pizza! And no better place
@@ -125,8 +127,8 @@
           </p>
 
           <article class="cardHolder">
-            <div class="card">
-              <img src="images/restaurant3/dish3a.jpg" alt="" />
+            <div class="card"  data-name = "chicken tikka masala" data-price="$18">
+              <img src="images/restaurant3/dish3a.jpg" alt="" loading="lazy" />
               <p>Chicken Tikka Masala</p>
               <p>
                 Chicken Tikka Masala is a classic curried dish with soft tender
@@ -134,8 +136,8 @@
               </p>
             </div>
 
-            <div class="card">
-              <img src="images/restaurant3/dish3b.jpg" alt="" />
+            <div class="card"  data-name = "garlic naan" data-price="$5">
+              <img src="images/restaurant3/dish3b.jpg" alt="" loading="lazy" />
               <p>Garlic Naan</p>
               <p>
                 Garlic Naan is a flavorful leavend Idian flatbread, baked in a
@@ -143,8 +145,8 @@
               </p>
             </div>
 
-            <div class="card">
-              <img src="images/restaurant3/dish3c.jpg" alt="" />
+            <div class="card"  data-name = "chicken biryani" data-price="$15">
+              <img src="images/restaurant3/dish3c.jpg" alt="" loading="lazy" />
               <p>Chicken Biryani</p>
               <p>
                 Chicken Biryani is an aroumatic, layered rice dish from
